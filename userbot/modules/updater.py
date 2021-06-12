@@ -207,7 +207,7 @@ async def upstream(event):
             if commit.startswith("- [NQ]"):
                 if HEROKU_APP_NAME is not None and HEROKU_API_KEY is not None:
                     return await event.edit(
-                        "**Quick update has been disabled for this update; "
+                        "**Sussy baka! Quick update has been disabled for this update; "
                         "use** `.update deploy` **instead.**"
                     )
         await event.edit("**Perfoming a quick update, please wait...**")
